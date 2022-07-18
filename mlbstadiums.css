@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height:1.5;
+color: #333;
+background-color: #a1c3ff;
+}
+
+img { 
+    width: 100px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+  
+}
+
+.container .innerbox{
+ background-color: #092555;
+ font-style: normal;
+ color: white;
+ border-radius: 10px;
+ margin: 20px 10px;
+ padding: 15px 20px;
+ width: 1000px;
+}
+
+.navbar{
+    background-color: #3474e6;
+    color:white;
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar .logo{
+    font-size:23px;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color:#fff;
+    text-decoration:none;
+    font-size:  16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a:hover { 
+    color:rgb(255, 255, 0);
+}
+
+.navbar ul {
+    display: flex;
+} 
+
+.navbar ul li { 
+    margin-left:20px ;
+}
+
+.header{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    min-height: 400px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.box{ 
+ display:block;
+ background-color: #092555;
+ font-style: italic;
+ color: white;
+ border-radius: 10px;
+ margin: 20px 10px;
+ padding: 15px 20px;
+ max-width: 1000px;
+}
+
+.boxes .container{
+    display: block;
+    text-align:center
+}
+
+
+
+.footer-nav-bar { 
+    display:flex;
+    justify-content:space-between;
+    background-color: #3474e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    padding: 4px;
+}
+
+
+.nav-link { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    list-style: none;
+}
+
+a:hover {
+    color:rgb(255, 255, 0);
+}
